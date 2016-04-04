@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
-    "start-debug": "DEBUG=express-es6-boilerplate:* node ./bin/www",
+    "start": "node ./bin/www-entry",
+    "start-debug": "DEBUG=express-es6-boilerplate:* node ./bin/www-entry",
     "watch": "nodemon ./bin/www-entry"
   },
   "dependencies": {
